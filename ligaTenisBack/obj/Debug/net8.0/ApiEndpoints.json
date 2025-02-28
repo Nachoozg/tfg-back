@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "ligaTenisBack.Controllers.ColegioController",
+    "Method": "Get",
+    "RelativePath": "api/Colegio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.ColegioController",
+    "Method": "Post",
+    "RelativePath": "api/Colegio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "colegio",
+        "Type": "ligaTenisBack.Models.DbModels.Colegio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.ColegioController",
+    "Method": "Get",
+    "RelativePath": "api/Colegio/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.ColegioController",
+    "Method": "Put",
+    "RelativePath": "api/Colegio/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "colegio",
+        "Type": "ligaTenisBack.Models.DbModels.Colegio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.ColegioController",
+    "Method": "Delete",
+    "RelativePath": "api/Colegio/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.JugadorController",
+    "Method": "Get",
+    "RelativePath": "api/Jugador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.JugadorController",
+    "Method": "Post",
+    "RelativePath": "api/Jugador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jugador",
+        "Type": "ligaTenisBack.Models.DbModels.Jugador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.JugadorController",
+    "Method": "Get",
+    "RelativePath": "api/Jugador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.JugadorController",
+    "Method": "Put",
+    "RelativePath": "api/Jugador/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jugador",
+        "Type": "ligaTenisBack.Models.DbModels.Jugador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.JugadorController",
+    "Method": "Delete",
+    "RelativePath": "api/Jugador/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
