@@ -20,6 +20,8 @@ public partial class LigatenisContext : DbContext
 
     public virtual DbSet<Jugador> Jugadors { get; set; }
 
+    public virtual DbSet<Partido> Partidos { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder
@@ -55,6 +57,22 @@ public partial class LigatenisContext : DbContext
             entity.Property(e => e.Nombre)
                 .HasMaxLength(50)
                 .HasColumnName("nombre");
+        });
+
+        modelBuilder.Entity<Partido>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("partido");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Detalles)
+                .HasMaxLength(50)
+                .HasColumnName("detalles");
+            entity.Property(e => e.Fecha).HasColumnName("fecha");
+            entity.Property(e => e.Lugar)
+                .HasMaxLength(50)
+                .HasColumnName("lugar");
         });
 
         OnModelCreatingPartial(modelBuilder);

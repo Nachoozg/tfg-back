@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\dbmodels\\ligateniscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\models\\dbmodels\\ligateniscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\controllers\\jugadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\controllers\\jugadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PartidoController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\PartidoController.cs",
+              "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\PartidoController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\PartidoController.cs",
+              "RelativeToolTip": "ligaTenisBack\\Controllers\\PartidoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:10:36.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LigatenisContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
+              "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
+              "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:08:49.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ColegioController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\ColegioController.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\ColegioController.cs",
@@ -38,25 +72,24 @@
               "RelativeToolTip": "ligaTenisBack\\Controllers\\ColegioController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAA0wBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:37:14.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T17:37:14.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "JugadorController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\JugadorController.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\JugadorController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\JugadorController.cs",
               "RelativeToolTip": "ligaTenisBack\\Controllers\\JugadorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T17:30:16.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\appsettings.json",
               "RelativeDocumentMoniker": "ligaTenisBack\\appsettings.json",
@@ -64,12 +97,11 @@
               "RelativeToolTip": "ligaTenisBack\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T17:25:22.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T17:25:22.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Program.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Program.cs",
@@ -77,8 +109,7 @@
               "RelativeToolTip": "ligaTenisBack\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T16:32:25.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T16:32:25.347Z"
             }
           ]
         }

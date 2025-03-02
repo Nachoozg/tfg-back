@@ -156,5 +156,84 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.PartidoController",
+    "Method": "Get",
+    "RelativePath": "api/Partido",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.PartidoController",
+    "Method": "Post",
+    "RelativePath": "api/Partido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partido",
+        "Type": "ligaTenisBack.Models.DbModels.Partido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.PartidoController",
+    "Method": "Get",
+    "RelativePath": "api/Partido/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.PartidoController",
+    "Method": "Put",
+    "RelativePath": "api/Partido/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "partido",
+        "Type": "ligaTenisBack.Models.DbModels.Partido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.PartidoController",
+    "Method": "Delete",
+    "RelativePath": "api/Partido/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

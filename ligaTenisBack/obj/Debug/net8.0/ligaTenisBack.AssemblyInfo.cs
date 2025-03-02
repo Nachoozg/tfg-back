@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ligaTenisBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e458f9db3e544b8cd37b2127f5ba833cf97232e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ligaTenisBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ligaTenisBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
