@@ -158,6 +158,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ligaTenisBack.Controllers.JugadorController",
+    "Method": "GetJugadoresPorColegio",
+    "RelativePath": "api/Jugador/colegio/{colegioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "colegioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ligaTenisBack.Controllers.PartidoController",
     "Method": "Get",
     "RelativePath": "api/Partido",

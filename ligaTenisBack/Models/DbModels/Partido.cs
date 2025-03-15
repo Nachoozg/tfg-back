@@ -12,4 +12,12 @@ public partial class Partido
     public string Lugar { get; set; } = null!;
 
     public string Detalles { get; set; } = null!;
+
+    public int? LocalId { get; set; }
+
+    public int? VisitanteId { get; set; }
+
+    public virtual Colegio? Local { get; set; }
+
+    public virtual Colegio? Visitante { get; set; }
 }

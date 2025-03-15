@@ -47,16 +47,23 @@ public partial class LigatenisContext : DbContext
 
             entity.ToTable("jugador");
 
+            entity.HasIndex(e => e.ColegioId, "colegio_id");
+
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Apellidos)
                 .HasMaxLength(50)
                 .HasColumnName("apellidos");
+            entity.Property(e => e.ColegioId).HasColumnName("colegio_id");
             entity.Property(e => e.Edad)
                 .HasMaxLength(50)
                 .HasColumnName("edad");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(50)
                 .HasColumnName("nombre");
+
+            entity.HasOne(d => d.Colegio).WithMany(p => p.Jugadors)
+                .HasForeignKey(d => d.ColegioId)
+                .HasConstraintName("FK_jugador_colegio");
         });
 
         modelBuilder.Entity<Partido>(entity =>
@@ -65,14 +72,30 @@ public partial class LigatenisContext : DbContext
 
             entity.ToTable("partido");
 
+            entity.HasIndex(e => e.LocalId, "FK_partido_colegio");
+
+            entity.HasIndex(e => e.VisitanteId, "FK_partido_colegio_2");
+
+            entity.HasIndex(e => new { e.Fecha, e.LocalId, e.VisitanteId }, "fecha_local_id_visitante_id").IsUnique();
+
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Detalles)
                 .HasMaxLength(50)
                 .HasColumnName("detalles");
             entity.Property(e => e.Fecha).HasColumnName("fecha");
+            entity.Property(e => e.LocalId).HasColumnName("local_id");
             entity.Property(e => e.Lugar)
                 .HasMaxLength(50)
                 .HasColumnName("lugar");
+            entity.Property(e => e.VisitanteId).HasColumnName("visitante_id");
+
+            entity.HasOne(d => d.Local).WithMany(p => p.PartidoLocals)
+                .HasForeignKey(d => d.LocalId)
+                .HasConstraintName("FK_partido_colegio");
+
+            entity.HasOne(d => d.Visitante).WithMany(p => p.PartidoVisitantes)
+                .HasForeignKey(d => d.VisitanteId)
+                .HasConstraintName("FK_partido_colegio_2");
         });
 
         OnModelCreatingPartial(modelBuilder);

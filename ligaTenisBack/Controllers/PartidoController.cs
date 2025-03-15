@@ -52,44 +52,12 @@ namespace ligaTenisBack.Controllers
             }
         }
 
-        // POST api/<PartidoController>
-        [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Partido partido)
-        {
-            try
-            {
-                _context.Add(partido);
-                await _context.SaveChangesAsync();
-
-                return Ok(partido);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-
         //// POST api/<PartidoController>
         //[HttpPost]
         //public async Task<IActionResult> Post([FromBody] Partido partido)
         //{
         //    try
         //    {
-        //        if (partido.LocalId == partido.VisitanteId)
-        //        {
-        //            return BadRequest("El equipo local no puede ser el mismo que el visitante.");
-        //        }
-
-        //        var partidosEnFecha = await _context.Partidos
-        //            .Where(p => p.Fecha == partido.Fecha && (p.LocalId == partido.LocalId || p.VisitanteId == partido.VisitanteId))
-        //            .ToListAsync();
-
-        //        if (partidosEnFecha.Any())
-        //        {
-        //            return BadRequest("El equipo no puede jugar más de un partido en la misma fecha.");
-        //        }
-
         //        _context.Add(partido);
         //        await _context.SaveChangesAsync();
 
@@ -100,6 +68,38 @@ namespace ligaTenisBack.Controllers
         //        return BadRequest(ex.Message);
         //    }
         //}
+
+
+        // POST api/<PartidoController>
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] Partido partido)
+        {
+            try
+            {
+                if (partido.LocalId == partido.VisitanteId)
+                {
+                    return BadRequest("El jugador local no puede ser el mismo que el visitante.");
+                }
+
+                var partidosEnFecha = await _context.Partidos
+                    .Where(p => p.Fecha == partido.Fecha && (p.LocalId == partido.LocalId || p.VisitanteId == partido.VisitanteId))
+                    .ToListAsync();
+
+                if (partidosEnFecha.Any())
+                {
+                    return BadRequest("El jugador no puede jugar más de un partido en la misma fecha.");
+                }
+
+                _context.Add(partido);
+                await _context.SaveChangesAsync();
+
+                return Ok(partido);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
 
         // PUT api/<PartidoController>/5

@@ -52,6 +52,31 @@ namespace ligaTenisBack.Controllers
             }
         }
 
+
+        // GET api/Jugador/colegio/5
+        [HttpGet("colegio/{colegioId}")]
+        public async Task<IActionResult> GetJugadoresPorColegio(int colegioId)
+        {
+            try
+            {
+                var jugadores = await _context.Jugadors
+                    .Where(j => j.ColegioId == colegioId) // Filtra por colegio
+                    .ToListAsync();
+
+                if (jugadores == null || jugadores.Count == 0)
+                {
+                    return NotFound(new { message = "No hay jugadores en este colegio." });
+                }
+
+                return Ok(jugadores);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
         // POST api/<JugadorController>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Jugador jugador)

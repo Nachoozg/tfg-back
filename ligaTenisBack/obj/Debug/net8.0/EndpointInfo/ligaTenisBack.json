@@ -255,6 +255,29 @@
         }
       }
     },
+    "/api/Jugador/colegio/{colegioId}": {
+      "get": {
+        "tags": [
+          "Jugador"
+        ],
+        "parameters": [
+          {
+            "name": "colegioId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Partido": {
       "get": {
         "tags": [
@@ -397,6 +420,27 @@
           "numeroJugadores": {
             "type": "integer",
             "format": "int32"
+          },
+          "jugadors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Jugador"
+            },
+            "nullable": true
+          },
+          "partidoLocals": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Partido"
+            },
+            "nullable": true
+          },
+          "partidoVisitantes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Partido"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -419,6 +463,14 @@
           "edad": {
             "type": "string",
             "nullable": true
+          },
+          "colegioId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "colegio": {
+            "$ref": "#/components/schemas/Colegio"
           }
         },
         "additionalProperties": false
@@ -441,6 +493,22 @@
           "detalles": {
             "type": "string",
             "nullable": true
+          },
+          "localId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "visitanteId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "local": {
+            "$ref": "#/components/schemas/Colegio"
+          },
+          "visitante": {
+            "$ref": "#/components/schemas/Colegio"
           }
         },
         "additionalProperties": false

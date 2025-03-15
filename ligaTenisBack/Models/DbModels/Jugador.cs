@@ -12,4 +12,8 @@ public partial class Jugador
     public string? Apellidos { get; set; }
 
     public string? Edad { get; set; }
+
+    public int? ColegioId { get; set; }
+
+    public virtual Colegio? Colegio { get; set; }
 }
