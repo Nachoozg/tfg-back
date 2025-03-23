@@ -17,6 +17,10 @@ public partial class Partido
 
     public int? VisitanteId { get; set; }
 
+    public int? ResultadoLocal { get; set; }
+
+    public int? ResultadoVisitante { get; set; }
+
     public virtual Colegio? Local { get; set; }
 
     public virtual Colegio? Visitante { get; set; }

@@ -87,6 +87,8 @@ public partial class LigatenisContext : DbContext
             entity.Property(e => e.Lugar)
                 .HasMaxLength(50)
                 .HasColumnName("lugar");
+            entity.Property(e => e.ResultadoLocal).HasColumnName("resultado_local");
+            entity.Property(e => e.ResultadoVisitante).HasColumnName("resultado_visitante");
             entity.Property(e => e.VisitanteId).HasColumnName("visitante_id");
 
             entity.HasOne(d => d.Local).WithMany(p => p.PartidoLocals)

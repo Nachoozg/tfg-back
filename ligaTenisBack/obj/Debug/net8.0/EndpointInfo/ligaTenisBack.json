@@ -504,6 +504,16 @@
             "format": "int32",
             "nullable": true
           },
+          "resultadoLocal": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "resultadoVisitante": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "local": {
             "$ref": "#/components/schemas/Colegio"
           },
