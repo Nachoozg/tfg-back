@@ -5,6 +5,30 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Clasificacion/Actualizar": {
+      "post": {
+        "tags": [
+          "Clasificacion"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Clasificacion": {
+      "get": {
+        "tags": [
+          "Clasificacion"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Colegio": {
       "get": {
         "tags": [

@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "ligaTenisBack.Controllers.ClasificacionController",
+    "Method": "GetClasificacion",
+    "RelativePath": "api/Clasificacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.ClasificacionController",
+    "Method": "ActualizarClasificacion",
+    "RelativePath": "api/Clasificacion/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ligaTenisBack.Controllers.ColegioController",
     "Method": "Get",
     "RelativePath": "api/Colegio",

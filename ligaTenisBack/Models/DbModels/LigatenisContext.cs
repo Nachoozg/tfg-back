@@ -16,6 +16,8 @@ public partial class LigatenisContext : DbContext
     {
     }
 
+    public virtual DbSet<Clasificacion> Clasificacions { get; set; }
+
     public virtual DbSet<Colegio> Colegios { get; set; }
 
     public virtual DbSet<Jugador> Jugadors { get; set; }
@@ -27,6 +29,22 @@ public partial class LigatenisContext : DbContext
         modelBuilder
             .UseCollation("utf8mb4_0900_ai_ci")
             .HasCharSet("utf8mb4");
+
+        modelBuilder.Entity<Clasificacion>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToTable("clasificacion");
+
+            entity.Property(e => e.Derrotas).HasColumnName("derrotas");
+            entity.Property(e => e.EquipoId).HasColumnName("equipoId");
+            entity.Property(e => e.NombreEquipo)
+                .HasMaxLength(50)
+                .HasColumnName("nombreEquipo");
+            entity.Property(e => e.PartidosJugados).HasColumnName("partidosJugados");
+            entity.Property(e => e.Puntos).HasColumnName("puntos");
+            entity.Property(e => e.Victorias).HasColumnName("victorias");
+        });
 
         modelBuilder.Entity<Colegio>(entity =>
         {
