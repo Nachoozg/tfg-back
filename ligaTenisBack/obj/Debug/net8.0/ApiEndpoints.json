@@ -38,8 +38,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "colegio",
-        "Type": "ligaTenisBack.Models.DbModels.Colegio",
+        "Name": "colegioDto",
+        "Type": "ligaTenisBack.Dtos.ColegioDto",
         "IsRequired": true
       }
     ],
@@ -75,8 +75,8 @@
         "IsRequired": true
       },
       {
-        "Name": "colegio",
-        "Type": "ligaTenisBack.Models.DbModels.Colegio",
+        "Name": "colegioDto",
+        "Type": "ligaTenisBack.Dtos.ColegioDto",
         "IsRequired": true
       }
     ],
@@ -94,6 +94,22 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.ColegioController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Colegio/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -189,6 +205,22 @@
         "Name": "colegioId",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ligaTenisBack.Controllers.JugadorController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Jugador/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

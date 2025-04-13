@@ -53,6 +53,9 @@ public partial class LigatenisContext : DbContext
             entity.ToTable("colegio");
 
             entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.ImagenColegio)
+                .HasMaxLength(250)
+                .HasColumnName("imagenColegio");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(50)
                 .HasColumnName("nombre");
@@ -75,6 +78,9 @@ public partial class LigatenisContext : DbContext
             entity.Property(e => e.Edad)
                 .HasMaxLength(50)
                 .HasColumnName("edad");
+            entity.Property(e => e.ImagenJugador)
+                .HasMaxLength(250)
+                .HasColumnName("imagenJugador");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(50)
                 .HasColumnName("nombre");

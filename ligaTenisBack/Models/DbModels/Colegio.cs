@@ -11,6 +11,8 @@ public partial class Colegio
 
     public int NumeroJugadores { get; set; }
 
+    public string? ImagenColegio { get; set; }
+
     public virtual ICollection<Jugador> Jugadors { get; set; } = new List<Jugador>();
 
     public virtual ICollection<Partido> PartidoLocals { get; set; } = new List<Partido>();

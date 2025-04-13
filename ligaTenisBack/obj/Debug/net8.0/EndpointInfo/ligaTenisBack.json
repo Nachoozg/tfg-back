@@ -48,17 +48,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Colegio"
+                "$ref": "#/components/schemas/ColegioDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Colegio"
+                "$ref": "#/components/schemas/ColegioDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Colegio"
+                "$ref": "#/components/schemas/ColegioDto"
               }
             }
           }
@@ -111,17 +111,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Colegio"
+                "$ref": "#/components/schemas/ColegioDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Colegio"
+                "$ref": "#/components/schemas/ColegioDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Colegio"
+                "$ref": "#/components/schemas/ColegioDto"
               }
             }
           }
@@ -147,6 +147,38 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Colegio/upload": {
+      "post": {
+        "tags": [
+          "Colegio"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -302,6 +334,38 @@
         }
       }
     },
+    "/api/Jugador/upload": {
+      "post": {
+        "tags": [
+          "Jugador"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Partido": {
       "get": {
         "tags": [
@@ -445,6 +509,10 @@
             "type": "integer",
             "format": "int32"
           },
+          "imagenColegio": {
+            "type": "string",
+            "nullable": true
+          },
           "jugadors": {
             "type": "array",
             "items": {
@@ -464,6 +532,28 @@
             "items": {
               "$ref": "#/components/schemas/Partido"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ColegioDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "numeroJugadores": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imagenColegio": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -491,6 +581,10 @@
           "colegioId": {
             "type": "integer",
             "format": "int32",
+            "nullable": true
+          },
+          "imagenJugador": {
+            "type": "string",
             "nullable": true
           },
           "colegio": {

@@ -22,7 +22,6 @@ namespace ligaTenisBack.Controllers
             try
             {
                 var listJugadores = await _context.Jugadors.ToListAsync();
-
                 return Ok(listJugadores);
             }
             catch (Exception ex)
@@ -38,12 +37,10 @@ namespace ligaTenisBack.Controllers
             try
             {
                 var jugador = await _context.Jugadors.FindAsync(id);
-
                 if (jugador == null)
                 {
                     return NotFound();
                 }
-
                 return Ok(jugador);
             }
             catch (Exception ex)
@@ -52,7 +49,6 @@ namespace ligaTenisBack.Controllers
             }
         }
 
-
         // GET api/Jugador/colegio/5
         [HttpGet("colegio/{colegioId}")]
         public async Task<IActionResult> GetJugadoresPorColegio(int colegioId)
@@ -60,14 +56,12 @@ namespace ligaTenisBack.Controllers
             try
             {
                 var jugadores = await _context.Jugadors
-                    .Where(j => j.ColegioId == colegioId) // Filtra por colegio
-                    .ToListAsync();
-
+                                    .Where(j => j.ColegioId == colegioId)
+                                    .ToListAsync();
                 if (jugadores == null || jugadores.Count == 0)
                 {
                     return NotFound(new { message = "No hay jugadores en este colegio." });
                 }
-
                 return Ok(jugadores);
             }
             catch (Exception ex)
@@ -75,7 +69,6 @@ namespace ligaTenisBack.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
 
         // POST api/<JugadorController>
         [HttpPost]
@@ -85,7 +78,6 @@ namespace ligaTenisBack.Controllers
             {
                 _context.Add(jugador);
                 await _context.SaveChangesAsync();
-
                 return Ok(jugador);
             }
             catch (Exception ex)
@@ -104,10 +96,9 @@ namespace ligaTenisBack.Controllers
                 {
                     return BadRequest();
                 }
-
                 _context.Update(jugador);
                 await _context.SaveChangesAsync();
-                return Ok(new { message = "Jugador actualizado con exito!" });
+                return Ok(new { message = "Jugador actualizado con éxito!" });
             }
             catch (Exception ex)
             {
@@ -122,20 +113,43 @@ namespace ligaTenisBack.Controllers
             try
             {
                 var jugador = await _context.Jugadors.FindAsync(id);
-
                 if (jugador == null)
                 {
                     return NotFound();
                 }
-
                 _context.Jugadors.Remove(jugador);
                 await _context.SaveChangesAsync();
-                return Ok(new { message = "Jugador eliminado con exito! " });
-
+                return Ok(new { message = "Jugador eliminado con éxito!" });
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("upload")]
+        [DisableRequestSizeLimit]
+        public async Task<IActionResult> UploadImage(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+                return BadRequest("No se ha enviado ningún archivo");
+            try
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagenes");
+                if (!Directory.Exists(uploadsFolder))
+                    Directory.CreateDirectory(uploadsFolder);
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+                var relativePath = Path.Combine("imagenes", fileName).Replace("\\", "/");
+                return Ok(new { path = relativePath });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error al subir el archivo: " + ex.Message);
             }
         }
     }
