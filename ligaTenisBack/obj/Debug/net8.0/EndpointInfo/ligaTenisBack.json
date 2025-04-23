@@ -543,6 +543,14 @@
           "imagenColegio": {
             "type": "string",
             "nullable": true
+          },
+          "jugadorIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -618,6 +626,16 @@
           "resultadoVisitante": {
             "type": "integer",
             "format": "int32",
+            "nullable": true
+          },
+          "lat": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "lng": {
+            "type": "number",
+            "format": "double",
             "nullable": true
           },
           "local": {

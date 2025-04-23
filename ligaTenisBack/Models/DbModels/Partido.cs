@@ -21,6 +21,10 @@ public partial class Partido
 
     public int? ResultadoVisitante { get; set; }
 
+    public double? Lat { get; set; }
+
+    public double? Lng { get; set; }
+
     public virtual Colegio? Local { get; set; }
 
     public virtual Colegio? Visitante { get; set; }

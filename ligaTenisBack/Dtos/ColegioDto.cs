@@ -6,5 +6,6 @@
         public string Nombre { get; set; }
         public int NumeroJugadores { get; set; }
         public string? ImagenColegio { get; set; }
+        public List<int>? JugadorIds { get; set; }
     }
 }

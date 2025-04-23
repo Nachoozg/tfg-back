@@ -12,5 +12,7 @@
         public int? ResultadoVisitante { get; set; }
         public ColegioDto Local { get; set; }
         public ColegioDto Visitante { get; set; }
+        public double? Lat { get; set; }
+        public double? Lng { get; set; }
     }
 }

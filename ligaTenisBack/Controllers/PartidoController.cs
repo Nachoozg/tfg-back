@@ -52,24 +52,6 @@ namespace ligaTenisBack.Controllers
             }
         }
 
-        //// POST api/<PartidoController>
-        //[HttpPost]
-        //public async Task<IActionResult> Post([FromBody] Partido partido)
-        //{
-        //    try
-        //    {
-        //        _context.Add(partido);
-        //        await _context.SaveChangesAsync();
-
-        //        return Ok(partido);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest(ex.Message);
-        //    }
-        //}
-
-
         // POST api/<PartidoController>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Partido partido)
@@ -77,25 +59,23 @@ namespace ligaTenisBack.Controllers
             try
             {
                 if (partido.LocalId == partido.VisitanteId)
-                {
-                    return BadRequest("El jugador local no puede ser el mismo que el visitante.");
-                }
+                    return BadRequest("El colegio local no puede ser el mismo que el visitante.");
 
-                var partidosEnFecha = await _context.Partidos
-                    .Where(p => p.Fecha == partido.Fecha && (p.LocalId == partido.LocalId || p.VisitanteId == partido.VisitanteId))
+                var conflictos = await _context.Partidos
+                    .Where(x =>
+                        x.Fecha == partido.Fecha &&
+                        (x.LocalId == partido.LocalId || x.VisitanteId == partido.VisitanteId))
                     .ToListAsync();
 
-                if (partidosEnFecha.Any())
-                {
-                    return BadRequest("El jugador no puede jugar más de un partido en la misma fecha.");
-                }
+                if (conflictos.Any())
+                    return BadRequest("Un jugador de un colegio no puede jugar más de un partido en la misma fecha.");
 
-                _context.Add(partido);
+                _context.Partidos.Add(partido);
                 await _context.SaveChangesAsync();
 
                 return Ok(partido);
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 return BadRequest(ex.Message);
             }

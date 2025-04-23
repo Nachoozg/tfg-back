@@ -22,7 +22,16 @@ namespace ligaTenisBack.Controllers
         {
             try
             {
-                var listColegios = await _context.Colegios.ToListAsync();
+                var listColegios = await _context.Colegios
+                    .Include(c => c.Jugadors)
+                    .Select(c => new ColegioDto
+                    {
+                        Id = c.Id,
+                        Nombre = c.Nombre,
+                        ImagenColegio = c.ImagenColegio,
+                        NumeroJugadores = c.Jugadors.Count
+                    })
+                    .ToListAsync();
 
                 return Ok(listColegios);
             }
@@ -38,13 +47,19 @@ namespace ligaTenisBack.Controllers
         {
             try
             {
-                var colegio = await _context.Colegios.FindAsync(id);
+                var colegio = await _context.Colegios
+                    .Include(c => c.Jugadors)
+                    .Where(c => c.Id == id)
+                    .Select(c => new ColegioDto
+                    {
+                        Id = c.Id,
+                        Nombre = c.Nombre,
+                        ImagenColegio = c.ImagenColegio,
+                        NumeroJugadores = c.Jugadors.Count
+                    })
+                    .FirstOrDefaultAsync();
 
-                if (colegio == null)
-                {
-                    return NotFound();
-                }
-
+                if (colegio == null) return NotFound();
                 return Ok(colegio);
             }
             catch (Exception ex)

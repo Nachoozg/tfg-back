@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\controllers\\clasificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\controllers\\clasificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\dbmodels\\clasificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\models\\dbmodels\\clasificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,71 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Partido.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Partido.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\Partido.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Partido.cs",
               "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\Partido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:35:52.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T10:25:43.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PartidoDto.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Dtos\\PartidoDto.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Dtos\\PartidoDto.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Dtos\\PartidoDto.cs",
               "RelativeToolTip": "ligaTenisBack\\Dtos\\PartidoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:35:48.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T10:25:42.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PartidoController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\PartidoController.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\PartidoController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\PartidoController.cs",
               "RelativeToolTip": "ligaTenisBack\\Controllers\\PartidoController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAuwH0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:35:46.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClasificacionController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\ClasificacionController.cs",
-              "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\ClasificacionController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\ClasificacionController.cs",
-              "RelativeToolTip": "ligaTenisBack\\Controllers\\ClasificacionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:30:36.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Clasificacion.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Clasificacion.cs",
-              "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\Clasificacion.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Clasificacion.cs",
-              "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\Clasificacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T11:30:32.07Z",
+              "WhenOpened": "2025-04-23T10:25:40.878Z",
               "EditorCaption": ""
             }
           ]

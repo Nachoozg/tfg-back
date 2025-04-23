@@ -89,6 +89,8 @@ public partial class LigatenisContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("detalles");
             entity.Property(e => e.Fecha).HasColumnName("fecha");
+            entity.Property(e => e.Lat).HasColumnName("lat");
+            entity.Property(e => e.Lng).HasColumnName("lng");
             entity.Property(e => e.LocalId).HasColumnName("local_id");
             entity.Property(e => e.Lugar)
                 .HasMaxLength(50)
