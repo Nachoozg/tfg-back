@@ -22,6 +22,10 @@ public partial class LigatenisContext : DbContext
 
     public virtual DbSet<Partido> Partidos { get; set; }
 
+    public virtual DbSet<Rol> Rols { get; set; }
+
+    public virtual DbSet<Usuario> Usuarios { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder
@@ -106,6 +110,47 @@ public partial class LigatenisContext : DbContext
             entity.HasOne(d => d.Visitante).WithMany(p => p.PartidoVisitantes)
                 .HasForeignKey(d => d.VisitanteId)
                 .HasConstraintName("FK_partido_colegio_2");
+        });
+
+        modelBuilder.Entity<Rol>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("rol");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(50)
+                .HasColumnName("nombre");
+        });
+
+        modelBuilder.Entity<Usuario>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("usuario");
+
+            entity.HasIndex(e => e.RolId, "FK_usuario_rol");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Apellidos)
+                .HasMaxLength(50)
+                .HasColumnName("apellidos");
+            entity.Property(e => e.Aprobado).HasColumnName("aprobado");
+            entity.Property(e => e.Mail)
+                .HasMaxLength(50)
+                .HasColumnName("mail");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(50)
+                .HasColumnName("nombre");
+            entity.Property(e => e.Password)
+                .HasMaxLength(65)
+                .HasColumnName("password");
+            entity.Property(e => e.RolId).HasColumnName("rolId");
+
+            entity.HasOne(d => d.Rol).WithMany(p => p.Usuarios)
+                .HasForeignKey(d => d.RolId)
+                .HasConstraintName("FK_usuario_rol");
         });
 
         OnModelCreatingPartial(modelBuilder);
