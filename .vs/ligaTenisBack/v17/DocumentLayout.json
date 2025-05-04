@@ -9,22 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\dbmodels\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\models\\dbmodels\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\dbmodels\\ligateniscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\models\\dbmodels\\ligateniscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\dtos\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\dtos\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\dbmodels\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\models\\dbmodels\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,58 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RolController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\RolController.cs",
-              "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\RolController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\RolController.cs",
-              "RelativeToolTip": "ligaTenisBack\\Controllers\\RolController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T21:08:29.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LigatenisContext.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
-              "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
-              "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\LigatenisContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:45:44.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RolDto.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Dtos\\RolDto.cs",
-              "RelativeDocumentMoniker": "ligaTenisBack\\Dtos\\RolDto.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Dtos\\RolDto.cs",
-              "RelativeToolTip": "ligaTenisBack\\Dtos\\RolDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:21:11.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Rol.cs",
-              "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\Rol.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Rol.cs",
-              "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:20:32.541Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -94,22 +28,21 @@
               "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "ligaTenisBack\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAowMQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAowMUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:26:27.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:57:43.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Usuario.cs",
-              "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\Usuario.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Usuario.cs",
-              "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\RolController.cs",
+              "RelativeToolTip": "ligaTenisBack\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:25:26.858Z",
+              "WhenOpened": "2025-04-29T16:40:31.416Z",
               "EditorCaption": ""
             }
           ]

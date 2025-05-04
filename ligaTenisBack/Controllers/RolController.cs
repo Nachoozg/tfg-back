@@ -19,6 +19,7 @@ namespace ligaTenisBack.Controllers
         public async Task<IActionResult> Get()
         {
             var roles = await _context.Rols
+                                      .Where(r => r.Nombre.ToLower() != "Administrador")
                                       .Select(r => new { r.Id, r.Nombre })
                                       .ToListAsync();
             return Ok(roles);
