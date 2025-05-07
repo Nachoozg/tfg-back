@@ -1,0 +1,79 @@
+# --- Visual Studio / .NET ---
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code workspace
+.vscode/
+
+# Visual Studio folder
+.vs/
+
+# Build output
+**/bin/
+**/obj/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Rider
+.idea/
+
+# IIS Express
+/.vs/
+*.vsix
+
+# Tooling
+*.DotSettings.user
+
+# Resharper
+_ReSharper*/
+*.DotSettings
+
+# Coverage & test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Logs
+logs/
+*.log
+
+# EF Core model snapshot
+**/*ModelSnapshot.cs
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# dotCover
+*.dotCover
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Others
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+
+# Temp files
+*.tmp
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+
+# Publish output
+**/publish/
