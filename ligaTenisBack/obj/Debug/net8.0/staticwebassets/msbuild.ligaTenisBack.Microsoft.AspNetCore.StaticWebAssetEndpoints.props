@@ -48,6 +48,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-foUZYPvwBOvgc6UC/Rh3A3ownr\u002BnmertjODa5ORVu1E="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"117037"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022foUZYPvwBOvgc6UC/Rh3A3ownr\u002BnmertjODa5ORVu1E=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 11:31:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24166"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 18:11:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.ng29mjebsx.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ng29mjebsx"},{"Name":"integrity","Value":"sha256-txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI="},{"Name":"label","Value":"_content/ligaTenisBack/imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24166"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 18:11:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/76879d2f-39ce-4798-8de4-900053d94ac6.9kh9yxd0vv.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\76879d2f-39ce-4798-8de4-900053d94ac6.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -120,6 +132,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-foUZYPvwBOvgc6UC/Rh3A3ownr\u002BnmertjODa5ORVu1E="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"117037"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022foUZYPvwBOvgc6UC/Rh3A3ownr\u002BnmertjODa5ORVu1E=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 16:10:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.j2amh2e1d3.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j2amh2e1d3"},{"Name":"integrity","Value":"sha256-e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY="},{"Name":"label","Value":"_content/ligaTenisBack/imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"425430"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 17:46:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"425430"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 17:46:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/bd183f75-6087-4147-a508-a154965f09a6.exdctvtvuk.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\bd183f75-6087-4147-a508-a154965f09a6.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -143,6 +167,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-foUZYPvwBOvgc6UC/Rh3A3ownr\u002BnmertjODa5ORVu1E="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"117037"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022foUZYPvwBOvgc6UC/Rh3A3ownr\u002BnmertjODa5ORVu1E=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 16:10:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/c37f2c9b-94f5-41c7-90ba-862628513128.8x1qfvad7j.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\c37f2c9b-94f5-41c7-90ba-862628513128.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8x1qfvad7j"},{"Name":"integrity","Value":"sha256-PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg="},{"Name":"label","Value":"_content/ligaTenisBack/imagenes/c37f2c9b-94f5-41c7-90ba-862628513128.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23927"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 17:46:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/c37f2c9b-94f5-41c7-90ba-862628513128.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\c37f2c9b-94f5-41c7-90ba-862628513128.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23927"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 17:46:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ligaTenisBack/imagenes/ccca1bc7-46bf-4ea9-91ee-4058875fc548.51wnn63xjl.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\ccca1bc7-46bf-4ea9-91ee-4058875fc548.png'))</AssetFile>

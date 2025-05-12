@@ -56,6 +56,14 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Mscc.GenerativeAI": {
+              "target": "Package",
+              "version": "[0.9.0-alpha.7, )"
+            },
+            "Mscc.GenerativeAI.Web": {
+              "target": "Package",
+              "version": "[0.9.0-alpha.7, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"

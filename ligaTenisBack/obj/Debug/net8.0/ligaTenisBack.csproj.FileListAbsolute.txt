@@ -1,5 +1,14 @@
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.sourcelink.json
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\appsettings.json
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\ligaTenisBack.staticwebassets.runtime.json
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\ligaTenisBack.staticwebassets.endpoints.json
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\ligaTenisBack.exe
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\ligaTenisBack.deps.json
@@ -17,8 +26,11 @@ C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Micro
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Mscc.GenerativeAI.dll
+C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Mscc.GenerativeAI.Web.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -82,13 +94,6 @@ C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\ru\Mi
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.csproj.AssemblyReference.cache
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.AssemblyInfoInputs.cache
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.AssemblyInfo.cs
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.csproj.CoreCompileInputs.cache
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\scopedcss\bundle\ligaTenisBack.styles.css
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\staticwebassets.development.json
@@ -106,5 +111,3 @@ C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\refin
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.pdb
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.genruntimeconfig.cache
 C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ref\ligaTenisBack.dll
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\obj\Debug\net8.0\ligaTenisBack.sourcelink.json
-C:\Users\USUARIO\source\repos\ligaTenisBack\ligaTenisBack\bin\Debug\net8.0\ligaTenisBack.staticwebassets.runtime.json

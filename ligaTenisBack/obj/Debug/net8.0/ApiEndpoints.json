@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ligaTenisBack.Controllers.ChatController",
+    "Method": "Post",
+    "RelativePath": "api/Chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "ligaTenisBack.Controllers.ChatController\u002BChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ligaTenisBack.Controllers.ClasificacionController",
     "Method": "GetClasificacion",
     "RelativePath": "api/Clasificacion",

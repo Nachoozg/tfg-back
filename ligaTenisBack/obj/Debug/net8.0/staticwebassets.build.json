@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LRNDc17p/6jUBnLKfOx4EhrH9GwjsWDeJczmajFC/vA=",
+  "Hash": "mT4VEl4W9P0TrX2HvjJ0/+GY3PxwsDkCfsgcJak+N8g=",
   "Source": "ligaTenisBack",
   "BasePath": "_content/ligaTenisBack",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\2325f8d5-ac18-4e20-a9d3-46dafef95d30.png"
+    },
+    {
+      "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg",
+      "SourceId": "ligaTenisBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\",
+      "BasePath": "_content/ligaTenisBack",
+      "RelativePath": "imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ng29mjebsx",
+      "Integrity": "txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg"
     },
     {
       "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\76879d2f-39ce-4798-8de4-900053d94ac6.png",
@@ -227,6 +248,27 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\940e9980-4770-4f71-bca0-4f2b47a8f3f1.png"
     },
     {
+      "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG",
+      "SourceId": "ligaTenisBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\",
+      "BasePath": "_content/ligaTenisBack",
+      "RelativePath": "imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j2amh2e1d3",
+      "Integrity": "e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG"
+    },
+    {
       "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\bd183f75-6087-4147-a508-a154965f09a6.png",
       "SourceId": "ligaTenisBack",
       "SourceType": "Discovered",
@@ -267,6 +309,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\bfad0cf9-f4b8-45ba-8874-24eebe8a9a6b.png"
+    },
+    {
+      "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\c37f2c9b-94f5-41c7-90ba-862628513128.jpg",
+      "SourceId": "ligaTenisBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\",
+      "BasePath": "_content/ligaTenisBack",
+      "RelativePath": "imagenes/c37f2c9b-94f5-41c7-90ba-862628513128#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8x1qfvad7j",
+      "Integrity": "PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\c37f2c9b-94f5-41c7-90ba-862628513128.jpg"
     },
     {
       "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\ccca1bc7-46bf-4ea9-91ee-4058875fc548.png",
@@ -721,6 +784,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-foUZYPvwBOvgc6UC/Rh3A3ownr+nmertjODa5ORVu1E="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.ng29mjebsx.jpeg",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ng29mjebsx"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI="
         }
       ]
     },
@@ -1217,6 +1362,88 @@
       ]
     },
     {
+      "Route": "imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.j2amh2e1d3.PNG",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 17:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2amh2e1d3"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 17:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY="
+        }
+      ]
+    },
+    {
       "Route": "imagenes/bd183f75-6087-4147-a508-a154965f09a6.exdctvtvuk.png",
       "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\bd183f75-6087-4147-a508-a154965f09a6.png",
       "Selectors": [],
@@ -1377,6 +1604,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-foUZYPvwBOvgc6UC/Rh3A3ownr+nmertjODa5ORVu1E="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/c37f2c9b-94f5-41c7-90ba-862628513128.8x1qfvad7j.jpg",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\c37f2c9b-94f5-41c7-90ba-862628513128.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 17:46:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8x1qfvad7j"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/c37f2c9b-94f5-41c7-90ba-862628513128.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/c37f2c9b-94f5-41c7-90ba-862628513128.jpg",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\c37f2c9b-94f5-41c7-90ba-862628513128.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 17:46:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg="
         }
       ]
     },

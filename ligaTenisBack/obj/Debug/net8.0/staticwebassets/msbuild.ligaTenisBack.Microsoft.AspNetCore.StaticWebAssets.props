@@ -72,6 +72,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\2325f8d5-ac18-4e20-a9d3-46dafef95d30.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ligaTenisBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ligaTenisBack</BasePath>
+      <RelativePath>imagenes/36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ng29mjebsx</Fingerprint>
+      <Integrity>txYEYx/lEqhJGfRXYxudHLSdpcKvRrpB/GvvpWfyhrI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\36b67a33-8c15-4bb8-a1cb-a1cd9fb61490.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\76879d2f-39ce-4798-8de4-900053d94ac6.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ligaTenisBack</SourceId>
@@ -180,6 +198,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\940e9980-4770-4f71-bca0-4f2b47a8f3f1.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ligaTenisBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ligaTenisBack</BasePath>
+      <RelativePath>imagenes/b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j2amh2e1d3</Fingerprint>
+      <Integrity>e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\bd183f75-6087-4147-a508-a154965f09a6.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ligaTenisBack</SourceId>
@@ -215,6 +251,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\bfad0cf9-f4b8-45ba-8874-24eebe8a9a6b.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\c37f2c9b-94f5-41c7-90ba-862628513128.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ligaTenisBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ligaTenisBack</BasePath>
+      <RelativePath>imagenes/c37f2c9b-94f5-41c7-90ba-862628513128.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8x1qfvad7j</Fingerprint>
+      <Integrity>PLf/dv3YUTxCA0CikeCOSpOEsEgoyL88vfZqicu7vLg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\c37f2c9b-94f5-41c7-90ba-862628513128.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\ccca1bc7-46bf-4ea9-91ee-4058875fc548.png'))">
       <SourceType>Package</SourceType>
