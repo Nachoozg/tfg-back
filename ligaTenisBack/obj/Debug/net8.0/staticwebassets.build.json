@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mT4VEl4W9P0TrX2HvjJ0/+GY3PxwsDkCfsgcJak+N8g=",
+  "Hash": "6O9UihnjhE/ZXZAub5fWjFbEDmp8QEMjnaYLPY/fw9c=",
   "Source": "ligaTenisBack",
   "BasePath": "_content/ligaTenisBack",
   "Mode": "Default",
@@ -246,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\940e9980-4770-4f71-bca0-4f2b47a8f3f1.png"
+    },
+    {
+      "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\a0f55ce2-7ac5-4775-a70c-9e393bb4a83f.PNG",
+      "SourceId": "ligaTenisBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\",
+      "BasePath": "_content/ligaTenisBack",
+      "RelativePath": "imagenes/a0f55ce2-7ac5-4775-a70c-9e393bb4a83f#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j2amh2e1d3",
+      "Integrity": "e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\a0f55ce2-7ac5-4775-a70c-9e393bb4a83f.PNG"
     },
     {
       "Identity": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\b209eada-a28c-4fb6-88cf-0c5e1e48c9ea.PNG",
@@ -1358,6 +1379,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-foUZYPvwBOvgc6UC/Rh3A3ownr+nmertjODa5ORVu1E="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/a0f55ce2-7ac5-4775-a70c-9e393bb4a83f.j2amh2e1d3.PNG",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\a0f55ce2-7ac5-4775-a70c-9e393bb4a83f.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 15:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2amh2e1d3"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/a0f55ce2-7ac5-4775-a70c-9e393bb4a83f.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/a0f55ce2-7ac5-4775-a70c-9e393bb4a83f.PNG",
+      "AssetFile": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\wwwroot\\imagenes\\a0f55ce2-7ac5-4775-a70c-9e393bb4a83f.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 15:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/WysouAjwdspCyzsyohv/46UG98MRJTQVqW4ApDWAY="
         }
       ]
     },

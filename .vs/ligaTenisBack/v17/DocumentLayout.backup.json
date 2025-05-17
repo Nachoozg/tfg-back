@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\dbmodels\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\models\\dbmodels\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\dbmodels\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\models\\dbmodels\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\dtos\\partidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\dtos\\partidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\models\\definicionesfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\services\\ligatenisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\services\\ligatenisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|solutionrelative:ligatenisback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2210174C-4866-42CD-936A-480EA6084E35}|ligaTenisBack\\ligaTenisBack.csproj|c:\\users\\usuario\\source\\repos\\ligatenisback\\ligatenisback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,35 +46,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Jugador.cs",
+              "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\Jugador.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Jugador.cs",
+              "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\Jugador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:49:24.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Partido.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Partido.cs",
+              "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DbModels\\Partido.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DbModels\\Partido.cs",
+              "RelativeToolTip": "ligaTenisBack\\Models\\DbModels\\Partido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:37:13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartidoController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\PartidoController.cs",
+              "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\PartidoController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\PartidoController.cs",
+              "RelativeToolTip": "ligaTenisBack\\Controllers\\PartidoController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAlwDgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:37:08.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PartidoDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Dtos\\PartidoDto.cs",
+              "RelativeDocumentMoniker": "ligaTenisBack\\Dtos\\PartidoDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Dtos\\PartidoDto.cs",
+              "RelativeToolTip": "ligaTenisBack\\Dtos\\PartidoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:26:26.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LigaTenisService.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Services\\LigaTenisService.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Services\\LigaTenisService.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Services\\LigaTenisService.cs",
               "RelativeToolTip": "ligaTenisBack\\Services\\LigaTenisService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwDsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T17:09:12.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DefinicionesFunciones.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DefinicionesFunciones.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Models\\DefinicionesFunciones.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Models\\DefinicionesFunciones.cs",
               "RelativeToolTip": "ligaTenisBack\\Models\\DefinicionesFunciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T17:08:42.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\appsettings.json",
               "RelativeDocumentMoniker": "ligaTenisBack\\appsettings.json",
@@ -76,14 +144,14 @@
               "RelativeDocumentMoniker": "ligaTenisBack\\Controllers\\ChatController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Controllers\\ChatController.cs",
               "RelativeToolTip": "ligaTenisBack\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAiwNYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T20:50:54.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\ligaTenisBack\\ligaTenisBack\\Program.cs",
               "RelativeDocumentMoniker": "ligaTenisBack\\Program.cs",

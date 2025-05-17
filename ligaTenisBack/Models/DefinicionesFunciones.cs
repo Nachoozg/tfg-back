@@ -20,4 +20,6 @@ namespace ligaTenisBack.Models
     public record ListarPartidosArgs(bool soloFuturos);
     public record ListarJugadoresArgs(int? colegioId);
     public record ObtenerClasificacionArgs();
+    public record GetResultadoPorFechaArgs(string fecha);
+    public record PredecirPartidoArgs(int partidoId);
 }
