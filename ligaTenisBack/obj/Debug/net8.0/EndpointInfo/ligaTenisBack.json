@@ -205,6 +205,29 @@
         }
       }
     },
+    "/api/EstadisticasJugador/jugador/{jugadorId}": {
+      "get": {
+        "tags": [
+          "EstadisticasJugador"
+        ],
+        "parameters": [
+          {
+            "name": "jugadorId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Jugador": {
       "get": {
         "tags": [
@@ -839,6 +862,20 @@
           },
           "colegio": {
             "$ref": "#/components/schemas/Colegio"
+          },
+          "partidoJugadorLocals": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Partido"
+            },
+            "nullable": true
+          },
+          "partidoJugadorVisitantes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Partido"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -905,6 +942,22 @@
             "type": "number",
             "format": "double",
             "nullable": true
+          },
+          "jugadorLocalId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "jugadorVisitanteId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "jugadorLocal": {
+            "$ref": "#/components/schemas/Jugador"
+          },
+          "jugadorVisitante": {
+            "$ref": "#/components/schemas/Jugador"
           },
           "local": {
             "$ref": "#/components/schemas/Colegio"

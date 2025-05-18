@@ -18,4 +18,8 @@ public partial class Jugador
     public string? ImagenJugador { get; set; }
 
     public virtual Colegio? Colegio { get; set; }
+
+    public virtual ICollection<Partido> PartidoJugadorLocals { get; set; } = new List<Partido>();
+
+    public virtual ICollection<Partido> PartidoJugadorVisitantes { get; set; } = new List<Partido>();
 }

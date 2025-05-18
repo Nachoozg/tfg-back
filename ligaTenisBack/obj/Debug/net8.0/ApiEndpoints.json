@@ -121,6 +121,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EstadisticasJugadorController",
+    "Method": "GetStatsJugador",
+    "RelativePath": "api/EstadisticasJugador/jugador/{jugadorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jugadorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ligaTenisBack.Controllers.JugadorController",
     "Method": "Get",
     "RelativePath": "api/Jugador",

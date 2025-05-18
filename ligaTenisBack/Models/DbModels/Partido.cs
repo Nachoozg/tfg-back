@@ -25,6 +25,14 @@ public partial class Partido
 
     public double? Lng { get; set; }
 
+    public int? JugadorLocalId { get; set; }
+
+    public int? JugadorVisitanteId { get; set; }
+
+    public virtual Jugador? JugadorLocal { get; set; }
+
+    public virtual Jugador? JugadorVisitante { get; set; }
+
     public virtual Colegio? Local { get; set; }
 
     public virtual Colegio? Visitante { get; set; }

@@ -86,6 +86,10 @@ public partial class LigatenisContext : DbContext
 
             entity.HasIndex(e => e.VisitanteId, "FK_partido_colegio_2");
 
+            entity.HasIndex(e => e.JugadorLocalId, "FK_partido_jugador");
+
+            entity.HasIndex(e => e.JugadorVisitanteId, "FK_partido_jugador_2");
+
             entity.HasIndex(e => new { e.Fecha, e.LocalId, e.VisitanteId }, "fecha_local_id_visitante_id").IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("id");
@@ -93,6 +97,8 @@ public partial class LigatenisContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("detalles");
             entity.Property(e => e.Fecha).HasColumnName("fecha");
+            entity.Property(e => e.JugadorLocalId).HasColumnName("jugador_local_id");
+            entity.Property(e => e.JugadorVisitanteId).HasColumnName("jugador_visitante_id");
             entity.Property(e => e.Lat).HasColumnName("lat");
             entity.Property(e => e.Lng).HasColumnName("lng");
             entity.Property(e => e.LocalId).HasColumnName("local_id");
@@ -102,6 +108,14 @@ public partial class LigatenisContext : DbContext
             entity.Property(e => e.ResultadoLocal).HasColumnName("resultado_local");
             entity.Property(e => e.ResultadoVisitante).HasColumnName("resultado_visitante");
             entity.Property(e => e.VisitanteId).HasColumnName("visitante_id");
+
+            entity.HasOne(d => d.JugadorLocal).WithMany(p => p.PartidoJugadorLocals)
+                .HasForeignKey(d => d.JugadorLocalId)
+                .HasConstraintName("FK_partido_jugador");
+
+            entity.HasOne(d => d.JugadorVisitante).WithMany(p => p.PartidoJugadorVisitantes)
+                .HasForeignKey(d => d.JugadorVisitanteId)
+                .HasConstraintName("FK_partido_jugador_2");
 
             entity.HasOne(d => d.Local).WithMany(p => p.PartidoLocals)
                 .HasForeignKey(d => d.LocalId)
