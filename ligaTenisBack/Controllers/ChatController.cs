@@ -168,7 +168,7 @@ namespace ligaTenisBack.Controllers
             }
 
             // --- 2) COLEGIOS ---
-            if (Regex.IsMatch(texto, @"\bcolegi"))
+            if (Regex.IsMatch(texto, @"\b(colegio(?:s)?|equipos?)\b", RegexOptions.CultureInvariant))
             {
                 var lista = await _http.GetFromJsonAsync<List<ColegioDto>>("api/Colegio")
                             ?? new List<ColegioDto>();
@@ -181,34 +181,126 @@ namespace ligaTenisBack.Controllers
                 return Ok(new ChatResponse(aiResp.Text.Trim()));
             }
 
+            // --- 2b) RESULTADO DE PARTIDOS ---
+            if (Regex.IsMatch(texto, @"\b(resul|termin[ao]s?|acab[oa]s?|marcador)\b"))
+            {
+                // Traemos todos los partidos (incluidos los jugados)
+                var todos = await _http.GetFromJsonAsync<List<PartidoDto>>("api/Partido")
+                            ?? new List<PartidoDto>();
+
+                // Intentamos extraer "Local vs Visitante el dd/MM/yyyy"
+                var pattern = new Regex(
+                    @"([\p{L}\s]+)\s+vs\.?\s+([\p{L}\s]+)\s+(?:el\s+)?(\d{1,2}/\d{1,2}/\d{4})",
+                    RegexOptions.IgnoreCase);
+                var match = pattern.Match(pregunta);
+
+                if (match.Success
+                    && DateOnly.TryParseExact(match.Groups[3].Value,
+                                              "dd/MM/yyyy",
+                                              CultureInfo.InvariantCulture,
+                                              DateTimeStyles.None,
+                                              out var fecha))
+                {
+                    var localName = match.Groups[1].Value.Trim();
+                    var visitName = match.Groups[2].Value.Trim();
+
+                    // Buscamos el partido que coincida
+                    var partido = todos.FirstOrDefault(p =>
+                        p.Fecha == fecha
+                        && string.Equals(p.Local.Nombre, localName, StringComparison.InvariantCultureIgnoreCase)
+                        && string.Equals(p.Visitante.Nombre, visitName, StringComparison.InvariantCultureIgnoreCase)
+                    );
+
+                    if (partido != null
+                        && partido.ResultadoLocal.HasValue
+                        && partido.ResultadoVisitante.HasValue)
+                    {
+                        return Ok(new ChatResponse(
+                            $"El resultado de {localName} vs {visitName} el {fecha:dd/MM/yyyy} fue " +
+                            $"{partido.ResultadoLocal} - {partido.ResultadoVisitante}."));
+                    }
+
+                    return Ok(new ChatResponse(
+                        $"No encontré un resultado registrado para {localName} vs {visitName} el {fecha:dd/MM/yyyy}."));
+                }
+                // Si no se extrae correctamente…
+                return Ok(new ChatResponse(
+                    "¿Podrías indicar el partido con el formato “Local vs Visitante el dd/MM/yyyy”?"));
+            }
+
+
             // --- 3) PARTIDOS ---
             if (Regex.IsMatch(texto, @"\bpartid"))
             {
-                bool soloFuturos = texto.Contains("prox");
+                // 3a) ¿Partidos JUGADOS?
+                bool esPasados = Regex.IsMatch(texto,
+                    @"\b(jugad(?:o|os)?|pasad(?:o|os)?)\b",
+                    RegexOptions.CultureInvariant);
+
+                // 3b) ¿Partidos FUTUROS?
+                bool esFuturos = Regex.IsMatch(texto,
+                    @"\b(proxim(?:o|os)?|pront(?:o|os)?|dentro de|siguient(?:e|es)?|por\s+jugar(?:se)?|pendient(?:e|es)?|sin\s+jugar)\b",
+                    RegexOptions.CultureInvariant);
+
                 var todos = await _http.GetFromJsonAsync<List<PartidoDto>>("api/Partido")
                            ?? new List<PartidoDto>();
-                var lista = soloFuturos
-                    ? todos.Where(p => p.Fecha >= DateOnly.FromDateTime(DateTime.Today))
-                           .OrderBy(p => p.Fecha)
-                           .ToList()
-                    : todos;
 
-                if (!lista.Any())
-                    return Ok(new ChatResponse("No hay partidos para ese criterio."));
+                // -- 3a) LISTAR solo los que ya se han JUGADO
+                if (esPasados)
+                {
+                    var pasados = todos
+                        .Where(p => p.Fecha < DateOnly.FromDateTime(DateTime.Today))
+                        .OrderByDescending(p => p.Fecha)
+                        .ToList();
 
-                var colegios = await _http.GetFromJsonAsync<List<ColegioDto>>("api/Colegio")
-                               ?? new List<ColegioDto>();
-                var mapa = colegios.ToDictionary(c => c.Id, c => c.Nombre);
+                    if (!pasados.Any())
+                        return Ok(new ChatResponse("No hay partidos jugados aún."));
 
-                var lineas = lista.Select(p =>
-                    $"- {mapa.GetValueOrDefault(p.LocalId ?? -1, "Local?")} vs " +
-                    $"{mapa.GetValueOrDefault(p.VisitanteId ?? -1, "Visitante?")} el {p.Fecha:dd/MM/yyyy}");
-                var datos = string.Join("\n", lineas);
+                    var colegios = await _http.GetFromJsonAsync<List<ColegioDto>>("api/Colegio")
+                                   ?? new List<ColegioDto>();
+                    var mapa = colegios.ToDictionary(c => c.Id, c => c.Nombre);
 
-                var prompt = MakePrompt(datos, pregunta);
+                    var lineas = pasados.Select(p =>
+                        $"- {mapa.GetValueOrDefault(p.LocalId ?? -1, "Local?")} vs " +
+                        $"{mapa.GetValueOrDefault(p.VisitanteId ?? -1, "Visitante?")} el {p.Fecha:dd/MM/yyyy}");
+
+                    var reply = "Estos son los partidos ya jugados:\n" + string.Join("\n", lineas);
+                    return Ok(new ChatResponse(reply));
+                }
+
+                // -- 3b) LISTAR solo los FUTUROS
+                if (esFuturos)
+                {
+                    var futuros = todos
+                        .Where(p => p.Fecha >= DateOnly.FromDateTime(DateTime.Today))
+                        .OrderBy(p => p.Fecha)
+                        .ToList();
+
+                    if (!futuros.Any())
+                        return Ok(new ChatResponse("No hay próximos partidos."));
+
+                    var colegios = await _http.GetFromJsonAsync<List<ColegioDto>>("api/Colegio")
+                                   ?? new List<ColegioDto>();
+                    var mapa = colegios.ToDictionary(c => c.Id, c => c.Nombre);
+
+                    var lineas = futuros.Select(p =>
+                        $"- {mapa.GetValueOrDefault(p.LocalId ?? -1, "Local?")} vs " +
+                        $"{mapa.GetValueOrDefault(p.VisitanteId ?? -1, "Visitante?")} el {p.Fecha:dd/MM/yyyy}");
+
+                    var reply = "Estos son los próximos partidos:\n" + string.Join("\n", lineas);
+                    return Ok(new ChatResponse(reply));
+                }
+
+                // -- 3c) LISTADO GENÉRICO
+                var lineasAll = todos.Select(p =>
+                    $"- {p.Local?.Nombre ?? "Local?"} vs {p.Visitante?.Nombre ?? "Visitante?"} el {p.Fecha:dd/MM/yyyy}");
+                var datosAll = string.Join("\n", lineasAll);
+
+                var prompt = MakePrompt(datosAll, pregunta);
                 var aiResp = await _ai.GenerateContent(prompt);
                 return Ok(new ChatResponse(aiResp.Text.Trim()));
             }
+
 
             // --- 4) JUGADORES ---
             if (Regex.IsMatch(texto, @"\bjugador"))
